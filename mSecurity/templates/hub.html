@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% block title %}
+<title>HUB mSecurity</title>
+{%  endblock  %}
+
+{% block body %}
+    <div class="container">
+    <br><br>
+    <div>
+      <div class="bg-light p-5 rounded">
+        <div class="col-sm-8 mx-auto">
+          <h1><i class="bi bi-people"></i> RGUKT HUB..</h1>
+          <iframe src="https://hub.rgukt.ac.in/hub/default/user/login?_next=/hub/default/index" width="100%" height="300" style="border:1px solid black;">
+            </iframe>
+            <div>
+              <a class="btn btn-primary" href="/posts" role="button">Account &raquo;</a>
+                <a class="btn btn-primary" href="/posts" role="button">+ Apply New Outpass &raquo;</a>
+              <a class="btn btn-primary" href="/posts" role="button">View Status &raquo;</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+{% endblock %}

@@ -1,0 +1,38 @@
+{%  extends 'base.html' %}
+{% block title %}
+<title>My Account</title>
+{% endblock %}
+
+{% block body %}
+    <div class="container">
+        <br><br>
+        <div>
+          <div class="bg-light p-5 rounded">
+            <div class="col-sm-8 mx-auto">
+              <h1><i class="bi bi-person-lines-fill"></i> My Account..</h1>
+              <form class="row g-3">
+                      <div class="col-md-6">
+                        <label for="inputEmail4" class="form-label">Username</label>
+                        <input type="text" class="form-control" placeholder="B1722XX" id="inputEmail4">
+                      </div>
+                      <div class="col-md-6">
+                        <label for="inputPassword4" class="form-label">Password</label>
+                        <input type="password" placeholder="rgukt123" class="form-control" id="inputPassword4">
+                      </div>
+
+                      <div class="col-12">
+                        <button type="submit" class="btn btn-primary"><i class="bi bi-box-arrow-in-right"></i> Sign in</button>
+                      </div>
+                    </form>
+
+                    <br><br><br>
+                <div>
+                  <a class="btn btn-primary" href="/posts" role="button">Account &raquo;</a>
+                    <a class="btn btn-primary" href="/posts" role="button">+ Apply New Outpass &raquo;</a>
+                  <a class="btn btn-primary" href="/posts" role="button">View Status &raquo;</a>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+{% endblock %}

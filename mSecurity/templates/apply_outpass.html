@@ -1,0 +1,70 @@
+{% extends 'base.html' %}
+
+{% block title %}
+<title> Apply Outpass</title>
+{% endblock %}
+
+{% block body %}
+
+<div class="container">
+    <br><br>
+    <div>
+      <div class="bg-light p-5 rounded">
+        <div class="col-sm-8 mx-auto">
+          <h1><i class="bi bi-bell"></i> Apply Outpass..</h1>
+          <form class="row g-3">
+                <div class="col-md-6">
+                  <label for="inputEmail4" class="form-label">Outdate</label>
+                  <input type="date" class="form-control" id="inputEmail4">
+                </div>
+                <div class="col-md-6">
+                  <label for="inputPassword4" class="form-label">Re-enter Date</label>
+                  <input type="date" class="form-control" id="inputPassword4">
+                </div>
+                <div class="col-12">
+                  <label for="inputAddress" class="form-label">Address / Destination</label>
+                  <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                </div>
+<!--                <div class="col-md-6">-->
+<!--                  <label for="inputCity" class="form-label">City</label>-->
+<!--                  <input type="text" class="form-control" id="inputCity">-->
+<!--                </div>-->
+                <div class="col-md-4">
+                  <label for="inputState" class="form-label">Reason</label>
+                  <select id="inputState" class="form-select">
+                    <option selected>Choose...</option>
+                    <option>Dussehra</option>
+                    <option>Summer</option>
+                    <option>Internships</option>
+                    <option>Admission Cancelled</option>
+                  </select>
+                </div>
+                <div class="col-md-2">
+                  <label for="inputZip" class="form-label">Choose proof</label>
+                  <input type="file" class="form-control" id="inputZip">
+                </div>
+                <div class="col-12">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                    <label class="form-check-label" for="gridCheck">
+                      Check me out
+                    </label>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <button type="submit" class="btn btn-primary">Apply Outpass</button>
+                </div>
+              </form>
+          <br><br>
+            <div>
+              <a class="btn btn-primary" href="/posts" role="button">Account &raquo;</a>
+
+              <a class="btn btn-primary" href="/posts" role="button">View Status &raquo;</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+
+
+{% endblock%}
