@@ -1,5 +1,5 @@
 # OLMS
-Online Outpass Management System [Python Flask]
+Online Leave Management System [Python Flask]
 This project is developed while Iam learning Python Flask.
 
 
